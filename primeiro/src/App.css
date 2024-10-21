@@ -1,0 +1,35 @@
+.contagem{
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.meio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: black;
+    padding: 20px 30px;
+    border-radius: 40px;
+    color: white;
+  }
+
+  div{
+    display: flex;
+    gap: 10px;
+  }
+
+
+  
+
+}
+
+

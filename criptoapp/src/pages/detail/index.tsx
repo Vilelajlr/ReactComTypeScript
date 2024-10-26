@@ -28,7 +28,7 @@ export function Detail() {
   useEffect(() => {
     async function getCoin(){
       try{
-        fetch(`https://api.coincap.io/v2/assets/${cripto}`)
+        fetch(`https://api.coincap.io/v2/assets/${cripto?.toLocaleLowerCase()}`)
         .then(response => response.json())
         .then((data: DataProps) => {
 

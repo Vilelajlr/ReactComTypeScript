@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDtOFvKHC1tx_PTkuLLjW-oZ1xlzv34Q20",
-  authDomain: "reactlinks-cb19f.firebaseapp.com",
-  projectId: "reactlinks-cb19f",
-  storageBucket: "reactlinks-cb19f.appspot.com",
-  messagingSenderId: "960443502823",
-  appId: "1:960443502823:web:04366fe091c7875f901242"
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  appId: process.env.APP_ID
 };
 
 

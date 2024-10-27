@@ -1,1 +1,2 @@
-./devlink/src/services/firebaseConnection.ts
+firebaseConnection.ts
+.env
